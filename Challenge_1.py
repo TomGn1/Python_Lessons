@@ -13,4 +13,4 @@ while i < 5:
 i = 0
 while i < age:
     i += 1
-    print(fr"Laisse moi compter ton age : {i} ans !")
+    print(f"Laisse moi compter ton age : {i} ans !")
