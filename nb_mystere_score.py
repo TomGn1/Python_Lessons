@@ -34,8 +34,8 @@ while rejouer == oui:
                 print(f"Félicitations {meilleur_joueur} ! "
                       f"Tu as le nouveau meilleur score avec {meilleur_score} tentatives.")
                 if meilleur_joueur != ancien_joueur and dernier_score is not None:
-                    print(f"Le meilleur score à battre était de {dernier_score} "
-                          f"tentatives par {ancien_joueur}.")
+                    print(f"Le meilleur score à battre était de {dernier_score}"
+                          f" tentatives par {ancien_joueur}.")
                 ancien_joueur = meilleur_joueur
                 dernier_score = nb_tentatives
             else:
